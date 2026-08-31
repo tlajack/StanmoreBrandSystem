@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;1,700&amp;family=Barlow:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F7F6F4; }
+  a { color:#ED1C24; text-decoration:none; }
+  a:hover { color:#B4131A; text-decoration:underline; }
+</style>
+</helmet>
+<template id="__bundler_thumbnail" data-bg-color="#111111">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#111111"></rect>
+    <rect x="360" y="300" width="60" height="200" fill="#ED1C24" transform="skewX(-14)"></rect>
+    <rect x="470" y="300" width="60" height="200" fill="#ED1C24" opacity="0.66" transform="skewX(-14)"></rect>
+    <rect x="580" y="300" width="60" height="200" fill="#ED1C24" opacity="0.33" transform="skewX(-14)"></rect>
+    <rect x="0" y="740" width="1200" height="60" fill="#ED1C24"></rect>
+  </svg>
+</template>
+<div style="font-family:'Barlow',Helvetica,Arial,sans-serif; color:#141414; background:#F7F6F4; -webkit-font-smoothing:antialiased">
+
+<section data-screen-label="Cover" style="background:#111111; padding:96px 72px 80px; display:flex; flex-direction:column; gap:64px">
+  <div style="display:flex; flex-direction:column; gap:2px; align-items:center; margin-bottom:48px">
+    <img src="assets/logos/stanmore-hor-2026-black.svg" alt="Stanmore" style="width:560px; height:auto; display:block; filter:drop-shadow(0 0 10px rgba(255,255,255,0.4))">
+    <div style="display:flex; align-items:center; gap:22px">
+      <div style="width:13px; height:34px; background:#ED1C24; transform:skewX(-14deg)"></div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:34px; letter-spacing:0.14em; text-transform:uppercase; color:#FFFFFF">Lifting You Since '62</div>
+    </div>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:20px">
+    <div style="font-family:'Barlow Condensed',sans-serif; font-weight:600; font-size:16px; letter-spacing:0.32em; text-transform:uppercase; color:#ED1C24">Stanmore Lift Equipment Ltd.</div>
+    <h1 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:96px; line-height:0.94; letter-spacing:-0.005em; text-transform:uppercase; color:#FFFFFF; max-width:14ch">Brand Standards</h1>
+    <p style="margin:0; max-width:56ch; font-size:17px; line-height:1.6; color:#B9B6B2; text-wrap:pretty">Rules for applying the Stanmore identity across print collateral, vehicle and equipment decals, and trade show graphics. Written for internal staff and for the print vendors producing the work.</p>
+  </div>
+  <div style="display:flex; gap:48px; padding-top:24px; border-top:1px solid #2E2E2E; font-family:'Barlow Condensed',sans-serif; font-size:15px; letter-spacing:0.16em; text-transform:uppercase; color:#7C7A77">
+    <span>Ontario, Canada</span>
+    <span>1 855-955-LIFT</span>
+    <span>{{ revision }}</span>
+  </div>
+</section>
+
+<section data-screen-label="Contents" style="background:#ED1C24; padding:56px 72px; display:grid; grid-template-columns:repeat(3,1fr); gap:28px 48px">
+  <a href="#marks" style="color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:22px; letter-spacing:0.06em; text-transform:uppercase" style-hover="color:#111111"><span style="opacity:0.6; margin-right:12px">01</span>The marks</a>
+  <a href="#space" style="color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:22px; letter-spacing:0.06em; text-transform:uppercase" style-hover="color:#111111"><span style="opacity:0.6; margin-right:12px">02</span>Clear space &amp; size</a>
+  <a href="#misuse" style="color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:22px; letter-spacing:0.06em; text-transform:uppercase" style-hover="color:#111111"><span style="opacity:0.6; margin-right:12px">03</span>Misuse</a>
+  <a href="#colour" style="color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:22px; letter-spacing:0.06em; text-transform:uppercase" style-hover="color:#111111"><span style="opacity:0.6; margin-right:12px">04</span>Colour</a>
+  <a href="#type" style="color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:22px; letter-spacing:0.06em; text-transform:uppercase" style-hover="color:#111111"><span style="opacity:0.6; margin-right:12px">05</span>Typography</a>
+  <a href="#elements" style="color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:22px; letter-spacing:0.06em; text-transform:uppercase" style-hover="color:#111111"><span style="opacity:0.6; margin-right:12px">06</span>Graphic elements</a>
+  <a href="#apps" style="color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:22px; letter-spacing:0.06em; text-transform:uppercase" style-hover="color:#111111"><span style="opacity:0.6; margin-right:12px">07</span>Applications</a>
+  <a href="#vendor" style="color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:22px; letter-spacing:0.06em; text-transform:uppercase" style-hover="color:#111111"><span style="opacity:0.6; margin-right:12px">08</span>Vendor checklist</a>
+</section>
+
+<section id="marks" data-screen-label="01 The marks" style="padding:104px 72px; display:flex; flex-direction:column; gap:56px">
+  <div style="display:flex; align-items:baseline; gap:24px">
+    <span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; color:#ED1C24; letter-spacing:0.1em">01</span>
+    <h2 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:52px; line-height:1; text-transform:uppercase; letter-spacing:0.005em">The marks</h2>
+  </div>
+  <p style="margin:0; max-width:64ch; font-size:17px; line-height:1.65; color:#3A3A3A; text-wrap:pretty">Three primary lockups, plus three one-colour versions for restricted processes. The 2026 mark is the standard going forward; the previous unboxed wordmark stays in circulation on existing stock and equipment until it is replaced, but never appears alongside the 2026 mark in a single piece.</p>
+
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:32px">
+    <div style="display:flex; flex-direction:column; gap:16px">
+      <div style="background:#111111; border:1px solid #111111; padding:44px 32px; display:flex; align-items:center; justify-content:center; min-height:180px">
+        <img src="assets/logos/stanmore-hor-2026-black.svg" alt="Reverse mark" style="width:100%; max-width:280px; height:auto; filter:drop-shadow(0 0 10px rgba(255,255,255,0.4))">
+      </div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; text-transform:uppercase; letter-spacing:0.06em">Primary</div>
+      <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">Required over photography and busy edges, and preferred on dark grounds where the boxed mark's keyline would disappear.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:16px">
+      <div style="background:#FFFFFF; border:1px solid #E0DDD9; padding:44px 32px; display:flex; align-items:center; justify-content:center; min-height:180px">
+        <img src="assets/logos/stanmore-hor-2026.svg" alt="Boxed horizontal mark" style="width:100%; max-width:280px; height:auto">
+      </div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; text-transform:uppercase; letter-spacing:0.06em">Boxed horizontal — light ground</div>
+      <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">The 2026 mark, and the default for print collateral, signage and booth graphics. Preferred on white and light grounds; on black it holds as long as the red and the wordmark keep their contrast.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:16px">
+      <div style="background:#FFFFFF; border:1px solid #E0DDD9; padding:32px; display:flex; align-items:center; justify-content:center; min-height:180px">
+        <img src="assets/logos/stanmore-decal.svg" alt="Decal lockup" style="width:100%; max-width:230px; height:auto">
+      </div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; text-transform:uppercase; letter-spacing:0.06em">Decal — stacked</div>
+      <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">Two-panel lockup with the phone number. Vehicle doors, equipment flanks and anywhere the number has to read at distance.</p>
+    </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:24px; padding-top:24px; border-top:1px solid #E0DDD9">
+    <div style="display:flex; align-items:baseline; gap:20px">
+      <h3 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:28px; text-transform:uppercase; letter-spacing:0.06em">Tagline lockup</h3>
+      <span style="font-size:16px; line-height:1.6; color:#4A4A4A; max-width:62ch">Optional, and never part of the logo artwork. Set it as live type only.</span>
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center">
+      <div style="background:#111111; padding:52px 44px; display:flex; flex-direction:column; gap:2px; align-items:center">
+        <img src="assets/logos/stanmore-hor-2026-black.svg" alt="Mark with tagline" style="width:100%; max-width:260px; height:auto; filter:drop-shadow(0 0 10px rgba(255,255,255,0.4))">
+        <div style="display:flex; align-items:center; gap:14px">
+          <div style="width:8px; height:20px; background:#ED1C24; transform:skewX(-14deg)"></div>
+          <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; letter-spacing:0.14em; text-transform:uppercase; color:#FFFFFF">Lifting You Since '62</div>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A; max-width:48ch">Barlow Condensed Bold, all caps, tracking 140, set at roughly one third of the wordmark's cap height. Centred on the mark, one clear-space unit below it.</p>
+        <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A; max-width:48ch">The skewed red bar is optional and sits at the tagline's cap height. Use the tagline on covers, booth panels and vehicle rears — not on business cards or spec sheets, where it competes with contact information.</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:24px; padding-top:24px; border-top:1px solid #E0DDD9">
+    <div style="display:flex; align-items:baseline; gap:20px">
+      <h3 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:28px; text-transform:uppercase; letter-spacing:0.06em">One-colour</h3>
+      <span style="font-size:16px; line-height:1.6; color:#4A4A4A; max-width:62ch">For single-ink print, cut vinyl, embroidery, engraving and any process that cannot hold two colours. Never substitute a one-colour version where the full mark will reproduce.</span>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:32px">
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <div style="background:#FFFFFF; border:1px solid #E0DDD9; padding:40px 32px; display:flex; align-items:center; justify-content:center; min-height:150px">
+          <img src="assets/logos/stanmore-hor-2026-oneColor-black.svg" alt="One-colour black mark" style="width:100%; max-width:260px; height:auto">
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Black</div>
+        <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">Default one-colour version. Invoices, forms, fax and any black-only run.</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <div style="background:#111111; padding:40px 32px; display:flex; align-items:center; justify-content:center; min-height:150px">
+          <img src="assets/logos/stanmore-hor-2026-oneColor-white.svg" alt="One-colour white mark" style="width:100%; max-width:260px; height:auto">
+        </div>
+        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">White</div>
+        <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">Knockout on black, red or dark photography. Requires a ground dark enough to hold the counters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="space" data-screen-label="02 Clear space" style="padding:104px 72px; background:#FFFFFF; border-top:1px solid #E0DDD9; display:flex; flex-direction:column; gap:56px">
+  <div style="display:flex; align-items:baseline; gap:24px">
+    <span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; color:#ED1C24; letter-spacing:0.1em">02</span>
+    <h2 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:52px; line-height:1; text-transform:uppercase">Clear space &amp; minimum size</h2>
+  </div>
+
+  <div style="display:grid; grid-template-columns:1.1fr 1fr; gap:64px; align-items:start">
+    <div style="display:flex; flex-direction:column; gap:20px">
+      <div style="background:#F2F0ED; padding:56px; display:flex; align-items:center; justify-content:center">
+        <div style="border:1px dashed #ED1C24; display:flex">
+          <img src="assets/logos/stanmore-hor-2026-black.svg" alt="Clear space diagram" style="width:100%; max-width:420px; height:auto; display:block">
+        </div>
+      </div>
+      <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A; max-width:52ch">Clear space on all four sides equals one quarter of the mark's box height. Nothing enters that zone — no type, no rule, no photo edge, no fold or trim.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:0">
+      <div style="display:flex; justify-content:space-between; gap:24px; padding:18px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Business card, letterhead</span><span style="font-size:16px; color:#4A4A4A">32 mm / 1.25 in wide min.</span></div>
+      <div style="display:flex; justify-content:space-between; gap:24px; padding:18px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Flyer, brochure, quote form</span><span style="font-size:16px; color:#4A4A4A">50 mm / 2 in wide min.</span></div>
+      <div style="display:flex; justify-content:space-between; gap:24px; padding:18px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Equipment decal</span><span style="font-size:16px; color:#4A4A4A">300 mm / 12 in wide min.</span></div>
+      <div style="display:flex; justify-content:space-between; gap:24px; padding:18px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Vehicle door</span><span style="font-size:16px; color:#4A4A4A">450 mm / 18 in wide min.</span></div>
+      <div style="display:flex; justify-content:space-between; gap:24px; padding:18px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Booth banner, tower</span><span style="font-size:16px; color:#4A4A4A">One third of panel width</span></div>
+      <p style="margin:24px 0 0; font-size:15px; line-height:1.6; color:#4A4A4A">Below the minimum, drop the black keyline on the boxed mark — at small sizes it fills in and muddies the letterforms.</p>
+    </div>
+  </div>
+</section>
+
+<section id="misuse" data-screen-label="03 Misuse" style="padding:104px 72px; display:flex; flex-direction:column; gap:56px">
+  <div style="display:flex; align-items:baseline; gap:24px">
+    <span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; color:#ED1C24; letter-spacing:0.1em">03</span>
+    <h2 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:52px; line-height:1; text-transform:uppercase">Misuse</h2>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:0 64px">
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #E0DDD9"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px">✕</span><span style="font-size:16px; line-height:1.55">Never re-set the wordmark in another typeface. It is drawn artwork, not live type.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #E0DDD9"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px">✕</span><span style="font-size:16px; line-height:1.55">Never stretch, condense or re-slant. Scale proportionally only.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #E0DDD9"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px">✕</span><span style="font-size:16px; line-height:1.55">Never recolour. Red, black and white only — no gradients, no metallics, no brand-partner colours.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #E0DDD9"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px">✕</span><span style="font-size:16px; line-height:1.55">Never add drop shadows, bevels, outlines or outer glows.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #E0DDD9"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px">✕</span><span style="font-size:16px; line-height:1.55">Never place the boxed mark on a red field, or the unboxed white mark on light grey.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #E0DDD9"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px">✕</span><span style="font-size:16px; line-height:1.55">Never lock partner logos inside the Stanmore box. Run them as a separate row on a white strip, clear of the mark.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #E0DDD9"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px">✕</span><span style="font-size:16px; line-height:1.55">Never rotate. The only exception is a deliberate vertical spine on a narrow format.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #E0DDD9"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px">✕</span><span style="font-size:16px; line-height:1.55">Never rebuild the mark from a screenshot or a JPG. Always start from the supplied vector.</span></div>
+  </div>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; padding-top:24px; border-top:1px solid #E0DDD9">
+    <div style="background:#FFFFFF; border:1px solid #E0DDD9; padding:44px 32px; display:flex; align-items:center; justify-content:center; min-height:170px">
+      <img src="assets/logos/stanmore-hor-2026-red.svg" alt="All-red mark, not approved" style="width:100%; max-width:260px; height:auto">
+    </div>
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <div style="display:flex; align-items:center; gap:12px">
+        <span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:22px">✕</span>
+        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:24px; text-transform:uppercase; letter-spacing:0.06em">All-red mark</div>
+      </div>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A; max-width:48ch">Not recommended. Red on white gives the wordmark too little contrast to read at distance or at small sizes.</p>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A; max-width:48ch">Where only one ink is available, use the black or white one-colour mark instead.</p>
+    </div>
+  </div>
+</section>
+
+<section id="colour" data-screen-label="04 Colour" style="padding:104px 72px; background:#FFFFFF; border-top:1px solid #E0DDD9; display:flex; flex-direction:column; gap:56px">
+  <div style="display:flex; align-items:baseline; gap:24px">
+    <span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; color:#ED1C24; letter-spacing:0.1em">04</span>
+    <h2 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:52px; line-height:1; text-transform:uppercase">Colour</h2>
+  </div>
+  <p style="margin:0; max-width:64ch; font-size:17px; line-height:1.65; color:#3A3A3A; text-wrap:pretty">Three core colours carry the brand. Red is the accent and the attention-getter, never the reading surface. Two neutrals exist only to support layout — rules, panels, secondary type.</p>
+
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:32px">
+    <div style="display:flex; flex-direction:column">
+      <div style="background:#ED1C24; height:200px"></div>
+      <div style="padding:20px 0; display:flex; flex-direction:column; gap:6px">
+        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:22px; text-transform:uppercase; letter-spacing:0.06em">Stanmore Red</div>
+        <div style="font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.08em; color:#6E6B67">HEX ED1C24 · RGB 237 28 36</div>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column">
+      <div style="background:#111111; height:200px"></div>
+      <div style="padding:20px 0; display:flex; flex-direction:column; gap:6px">
+        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:22px; text-transform:uppercase; letter-spacing:0.06em">Equipment Black</div>
+        <div style="font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.08em; color:#6E6B67">HEX 111111 · RGB 17 17 17</div>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column">
+      <div style="background:#FFFFFF; height:200px; border:1px solid #E0DDD9"></div>
+      <div style="padding:20px 0; display:flex; flex-direction:column; gap:6px">
+        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:22px; text-transform:uppercase; letter-spacing:0.06em">White</div>
+        <div style="font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.08em; color:#6E6B67">HEX FFFFFF · Unprinted stock</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; align-items:center; gap:20px; padding:20px 24px; background:#F2F0ED">
+      <div style="width:56px; height:56px; background:#6E7175"></div>
+      <div style="display:flex; flex-direction:column; gap:4px"><span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Steel</span><span style="font-family:'Barlow Condensed',sans-serif; font-size:15px; letter-spacing:0.08em; color:#6E6B67">6E7175 · secondary type, rules</span></div>
+    </div>
+    <div style="flex:1; display:flex; align-items:center; gap:20px; padding:20px 24px; background:#F2F0ED">
+      <div style="width:56px; height:56px; background:#E4E2E0; border:1px solid #C9C6C2"></div>
+      <div style="display:flex; flex-direction:column; gap:4px"><span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Fog</span><span style="font-family:'Barlow Condensed',sans-serif; font-size:15px; letter-spacing:0.08em; color:#6E6B67">E4E2E0 · panels, table fills</span></div>
+    </div>
+  </div>
+
+  <sc-if value="{{ showPrintSpecs }}" hint-placeholder-val="{{ true }}">
+  <div style="display:flex; flex-direction:column; gap:20px; padding-top:16px">
+    <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:24px; text-transform:uppercase; letter-spacing:0.06em">Production values</div>
+    <div style="display:grid; grid-template-columns:1.2fr 1fr 1fr 1.2fr; gap:0; font-size:15px">
+      <div style="padding:14px 16px; background:#111111; color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.1em; text-transform:uppercase">Colour</div>
+      <div style="padding:14px 16px; background:#111111; color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.1em; text-transform:uppercase">Coated stock</div>
+      <div style="padding:14px 16px; background:#111111; color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.1em; text-transform:uppercase">Spot</div>
+      <div style="padding:14px 16px; background:#111111; color:#FFFFFF; font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.1em; text-transform:uppercase">Cut vinyl</div>
+
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9">Stanmore Red</div>
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9; color:#4A4A4A">C0 M95 Y100 K0</div>
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9; color:#4A4A4A">PMS 485 C</div>
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9; color:#4A4A4A">3M 3630-53 / ORACAL 751-031</div>
+
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9">Equipment Black</div>
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9; color:#4A4A4A">K100 · rich C60 M40 Y40 K100 over 50 mm</div>
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9; color:#4A4A4A">PMS Black C</div>
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9; color:#4A4A4A">3M 3630-22 / ORACAL 751-070</div>
+
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9">White</div>
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9; color:#4A4A4A">Knockout, no ink</div>
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9; color:#4A4A4A">—</div>
+      <div style="padding:16px; border-bottom:1px solid #E0DDD9; color:#4A4A4A">3M 3630-20 / ORACAL 751-010</div>
+    </div>
+    <p style="margin:0; font-size:15px; line-height:1.6; color:#6E6B67; max-width:76ch">Red is the one colour worth a press check. Match to PMS 485 C on every process, and hold the same red across print and vinyl so a card and a truck door read as the same company.</p>
+  </div>
+  </sc-if>
+</section>
+
+<section id="type" data-screen-label="05 Typography" style="padding:104px 72px; display:flex; flex-direction:column; gap:56px">
+  <div style="display:flex; align-items:baseline; gap:24px">
+    <span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; color:#ED1C24; letter-spacing:0.1em">05</span>
+    <h2 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:52px; line-height:1; text-transform:uppercase">Typography</h2>
+  </div>
+  <p style="margin:0; max-width:66ch; font-size:17px; line-height:1.65; color:#3A3A3A; text-wrap:pretty">The wordmark is a heavy slanted condensed grotesque. The brand pairing extends that logic rather than competing with it: a condensed face for headlines and equipment labels, its normal-width sibling for body copy. Both are free, licensed for print and embedding, and installable on any staff machine.</p>
+
+  <div style="background:#FFFFFF; border:1px solid #E0DDD9; padding:48px; display:flex; flex-direction:column; gap:40px">
+    <div style="display:flex; align-items:baseline; gap:16px">
+      <span style="font-family:'Barlow Condensed',sans-serif; font-weight:600; font-size:14px; letter-spacing:0.24em; text-transform:uppercase; color:#ED1C24">Brand typeface</span>
+      <span style="font-family:'Barlow Condensed',sans-serif; font-size:15px; letter-spacing:0.1em; text-transform:uppercase; color:#6E6B67">Barlow Condensed + Barlow</span>
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:48px">
+      <div style="display:flex; flex-direction:column; gap:14px; border-right:1px solid #E0DDD9; padding-right:48px">
+        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:64px; line-height:1; text-transform:uppercase">Rough Terrain</div>
+        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-style:italic; font-size:40px; line-height:1; text-transform:uppercase; color:#ED1C24">1056-G Reach</div>
+        <div style="font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.12em; text-transform:uppercase; color:#6E6B67; margin-top:8px">Headlines · labels · numbers</div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <p style="margin:0; font-size:18px; line-height:1.6; max-width:40ch">Stanmore has been lifting you since '62. Rough terrain forklifts, telehandlers, scissor lifts, scaffolding and mortar mixers, rented and sold across Ontario.</p>
+        <div style="font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.12em; text-transform:uppercase; color:#6E6B67; margin-top:8px">Body · captions · specs</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:0; max-width:760px">
+    <div style="display:flex; justify-content:space-between; padding:16px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Print headline</span><span style="font-size:16px; color:#4A4A4A">24 pt and up, condensed, uppercase</span></div>
+    <div style="display:flex; justify-content:space-between; padding:16px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Subhead</span><span style="font-size:16px; color:#4A4A4A">14–18 pt, condensed, tracking 60</span></div>
+    <div style="display:flex; justify-content:space-between; padding:16px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Body</span><span style="font-size:16px; color:#4A4A4A">10–12 pt / 15 pt leading, never below 9 pt</span></div>
+    <div style="display:flex; justify-content:space-between; padding:16px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Decal copy</span><span style="font-size:16px; color:#4A4A4A">75 mm / 3 in cap height min. on equipment</span></div>
+    <div style="display:flex; justify-content:space-between; padding:16px 0; border-bottom:1px solid #E0DDD9"><span style="font-family:'Barlow Condensed',sans-serif; font-size:19px; text-transform:uppercase; letter-spacing:0.06em">Office fallback</span><span style="font-size:16px; color:#4A4A4A">Arial Narrow / Arial where Barlow is unavailable</span></div>
+  </div>
+</section>
+
+<section id="elements" data-screen-label="06 Graphic elements" style="padding:104px 72px; background:#FFFFFF; border-top:1px solid #E0DDD9; display:flex; flex-direction:column; gap:56px">
+  <div style="display:flex; align-items:baseline; gap:24px">
+    <span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; color:#ED1C24; letter-spacing:0.1em">06</span>
+    <h2 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:52px; line-height:1; text-transform:uppercase">Graphic elements</h2>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:40px">
+    <div style="display:flex; flex-direction:column; gap:18px">
+      <div style="height:150px; background:#111111; display:flex; flex-direction:column; justify-content:flex-end"><div style="height:14px; background:#ED1C24"></div></div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; text-transform:uppercase; letter-spacing:0.06em">The red rule</div>
+      <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">A solid red bar anchoring the bottom or top edge of a panel. Weight is 3% of the panel height. One per piece.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:18px">
+      <div style="height:150px; background:#F2F0ED; position:relative; overflow:hidden">
+        <div style="position:absolute; inset:0; background:#111111; clipPath:polygon(0 0, 46% 0, 34% 100%, 0 100%)"></div>
+        <div style="position:absolute; inset:0; background:#ED1C24; clipPath:polygon(46% 0, 52% 0, 40% 100%, 34% 100%)"></div>
+      </div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; text-transform:uppercase; letter-spacing:0.06em">The angled cut</div>
+      <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">One 14° cut across the format, black field to open ground, with a red edge on the cut. Divides a cover, a card front or a banner without adding a second element.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:18px">
+      <div style="height:150px; background:#111111; display:flex; align-items:center; justify-content:center; gap:10px"><div style="width:26px; height:52px; background:#ED1C24; transform:skewX(-14deg)"></div><div style="width:26px; height:52px; background:#ED1C24; transform:skewX(-14deg); opacity:0.66"></div><div style="width:26px; height:52px; background:#ED1C24; transform:skewX(-14deg); opacity:0.33"></div></div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; text-transform:uppercase; letter-spacing:0.06em">The 14° slant</div>
+      <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">The wordmark's slant, reused as a repeating bar motif. Always 14° from vertical, always leaning right. Accent only — never behind body copy.</p>
+    </div>
+  </div>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; padding-top:24px; border-top:1px solid #E0DDD9">
+    <div style="height:260px; background:#ED1C24; position:relative; overflow:hidden">
+      <div style="position:absolute; inset:0; background:url('assets/texture-halftone-alpha.png') center/cover no-repeat; opacity:0.85; mix-blend-mode:multiply"></div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:24px; text-transform:uppercase; letter-spacing:0.06em">The halftone texture</div>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A; max-width:48ch">Halftone dots following the 14° slant, multiplied over a Stanmore Red field. The texture is supplied as black artwork and laid over the red, so the red underneath stays PMS 485 C. Never apply it over any colour but red.</p>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A; max-width:48ch">Use it to give a large red field some weight: booth panels, flyer covers, the back of a card. Keep type off the densest areas, or run type on a clean red or white panel sitting on top. Scale it so the dots stay visible at viewing distance rather than tiling small.</p>
+    </div>
+  </div>
+  <p style="margin:0; max-width:70ch; font-size:16px; line-height:1.65; color:#4A4A4A; text-wrap:pretty">Use one element per piece. The identity does its work through flat colour blocking and hard edges, so stacking a rule, a cut and a slant on one layout reads as noise rather than as Stanmore.</p>
+
+  <div style="display:flex; flex-direction:column; gap:28px; padding-top:32px; border-top:1px solid #E0DDD9">
+    <div style="display:flex; align-items:baseline; gap:20px">
+      <h3 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:28px; text-transform:uppercase; letter-spacing:0.06em">Texture in use</h3>
+      <span style="font-size:16px; line-height:1.6; color:#4A4A4A; max-width:58ch">The texture is a ground, not an element — a rule, a cut or the mark can sit on top of it.</span>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <div style="background:#FFFFFF; border:1px solid #E0DDD9; display:flex; align-items:center; justify-content:center; padding:24px">
+        <img src="assets/van-texture-panel.jpg" alt="Van with textured red panel" style="width:100%; max-width:900px; height:auto; display:block" />
+      </div>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A; max-width:76ch">Vehicle panel. The texture fills the red field and the mark sits clear of the densest dots. Contain it inside a hard-edged panel rather than fading it out against the paint.</p>
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center">
+      <div style="background:#FFFFFF; border:1px solid #E0DDD9; display:flex; align-items:center; justify-content:center; padding:32px">
+        <img src="assets/businesscard-proof.png" alt="Business card proof, both sides" style="width:100%; max-width:420px; height:auto; display:block" />
+      </div>
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; text-transform:uppercase; letter-spacing:0.06em">Business card</div>
+        <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A; max-width:48ch">Front is a textured red field carrying the mark, with the partner row on a white strip along the foot. Back keeps contact type on white and takes the texture only in the red band at the foot, so nothing reads over the dots.</p>
+        <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A; max-width:48ch">Partner marks run as a single row along the bottom edge, equal height, in their own colours on a white strip — never dropped straight onto the texture.</p>
+      </div>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:32px">
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <div style="height:300px; background:#ED1C24; position:relative; overflow:hidden; display:flex; flex-direction:column; justify-content:flex-end">
+          <div style="position:absolute; inset:0; background:url('assets/texture-halftone-alpha.png') center/cover no-repeat; opacity:0.85; mix-blend-mode:multiply"></div>
+          <div style="position:relative; padding:28px 26px; display:flex; flex-direction:column; gap:14px">
+            <img src="assets/logos/stanmore-hor-2026-primary.svg" alt="Stanmore" style="width:74%; height:auto" />
+            <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:17px; letter-spacing:0.14em; text-transform:uppercase; color:#FFFFFF; white-space:nowrap">Lifting You Since '62</div>
+          </div>
+          <div style="position:relative; height:12px; background:#111111"></div>
+        </div>
+        <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">Booth panel. Texture across the full ground, mark and tagline in the lower third, black rule closing the foot.</p>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <div style="height:300px; background:#FFFFFF; border:1px solid #E0DDD9; position:relative; overflow:hidden; display:flex; flex-direction:column">
+          <div style="height:44%; background:#ED1C24; position:relative; overflow:hidden">
+            <div style="position:absolute; inset:0; background:url('assets/texture-halftone-alpha.png') center/cover no-repeat; opacity:0.85; mix-blend-mode:multiply"></div>
+          </div>
+          <div style="flex:1; padding:24px 22px; display:flex; flex-direction:column; justify-content:space-between">
+            <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:30px; line-height:0.98; text-transform:uppercase; color:#111111">Telehandlers<br />Rent &amp; Sell</div>
+            <div style="font-family:'Barlow Condensed',sans-serif; font-size:14px; letter-spacing:0.14em; text-transform:uppercase; color:#6E7175">1 855-955-LIFT</div>
+          </div>
+        </div>
+        <p style="margin:0; font-size:15px; line-height:1.6; color:#4A4A4A">Flyer cover. Textured band across the top, headline and contact on clean white below. Type never sits on the dots.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="apps" data-screen-label="07 Applications" style="padding:104px 72px; display:flex; flex-direction:column; gap:56px">
+  <div style="display:flex; align-items:baseline; gap:24px">
+    <span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; color:#ED1C24; letter-spacing:0.1em">07</span>
+    <h2 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:52px; line-height:1; text-transform:uppercase">Applications</h2>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:40px">
+    <div style="background:#FFFFFF; border:1px solid #E0DDD9; padding:36px; display:flex; flex-direction:column; gap:14px">
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:24px; text-transform:uppercase; letter-spacing:0.06em">Business card</div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.1em; text-transform:uppercase; color:#ED1C24">3.5 × 2 in · 16 pt matte · 1/8 in bleed</div>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A">Front carries the mark alone. Back carries name, title, email, branch address and both phone numbers, set left, with the QR at upper right. Name in red, surname in black.</p>
+    </div>
+    <div style="background:#FFFFFF; border:1px solid #E0DDD9; padding:36px; display:flex; flex-direction:column; gap:14px">
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:24px; text-transform:uppercase; letter-spacing:0.06em">Equipment &amp; vehicle decal</div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.1em; text-transform:uppercase; color:#ED1C24">Cast vinyl · 5 yr outdoor · contour cut</div>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A">Stacked lockup, red panel over white panel, phone number always present. Keep the decal off panel seams, hinges and rivets. Match the same red on every unit in the fleet.</p>
+    </div>
+    <div style="background:#FFFFFF; border:1px solid #E0DDD9; padding:36px; display:flex; flex-direction:column; gap:14px">
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:24px; text-transform:uppercase; letter-spacing:0.06em">Flyer &amp; spec sheet</div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.1em; text-transform:uppercase; color:#ED1C24">8.5 × 11 in · 0.5 in margins</div>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A">Mark top left, red rule at the foot with phone and web. Equipment photography sits full-bleed or on white — never on a red field, which fights the machines.</p>
+    </div>
+    <div style="background:#FFFFFF; border:1px solid #E0DDD9; padding:36px; display:flex; flex-direction:column; gap:14px">
+      <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:24px; text-transform:uppercase; letter-spacing:0.06em">Trade show</div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-size:16px; letter-spacing:0.1em; text-transform:uppercase; color:#ED1C24">Read at 20 ft · one message per panel</div>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#3A3A3A">Black ground, white type, red accent. Mark in the top third of each panel above sightline. Partner brands run as a single row along the base, equal height, on white.</p>
+    </div>
+  </div>
+</section>
+
+<section id="vendor" data-screen-label="08 Vendor checklist" style="background:#111111; color:#FFFFFF; padding:104px 72px; display:flex; flex-direction:column; gap:48px">
+  <div style="display:flex; align-items:baseline; gap:24px">
+    <span style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:20px; color:#ED1C24; letter-spacing:0.1em">08</span>
+    <h2 style="margin:0; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:52px; line-height:1; text-transform:uppercase; color:#FFFFFF">Vendor checklist</h2>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:0 64px">
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #2E2E2E"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px">01</span><span style="font-size:16px; line-height:1.55; color:#DAD8D5">Vector artwork only: EPS or PDF for print, SVG for screen. No PNG or JPG logos.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #2E2E2E"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px">02</span><span style="font-size:16px; line-height:1.55; color:#DAD8D5">All type converted to outlines before release.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #2E2E2E"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px">03</span><span style="font-size:16px; line-height:1.55; color:#DAD8D5">CMYK for process print, spot for two-colour jobs, RGB never sent to press.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #2E2E2E"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px">04</span><span style="font-size:16px; line-height:1.55; color:#DAD8D5">1/8 in bleed and a 1/8 in safety margin on every trimmed piece.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #2E2E2E"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px">05</span><span style="font-size:16px; line-height:1.55; color:#DAD8D5">Raster images 300 dpi at final size; large-format banners 100 dpi at final size.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #2E2E2E"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px">06</span><span style="font-size:16px; line-height:1.55; color:#DAD8D5">Hard-copy or drawdown proof on the first run of any new red application.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #2E2E2E"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px">07</span><span style="font-size:16px; line-height:1.55; color:#DAD8D5">Tagline set as live type, never pulled from a logo file: LIFTING YOU SINCE '62.</span></div>
+    <div style="display:flex; gap:16px; padding:20px 0; border-bottom:1px solid #2E2E2E"><span style="color:#ED1C24; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:19px">08</span><span style="font-size:16px; line-height:1.55; color:#DAD8D5">Barlow Condensed and Barlow supplied with the artwork package; do not substitute.</span></div>
+  </div>
+  <div style="display:flex; justify-content:space-between; align-items:flex-end; gap:40px; padding-top:32px; border-top:1px solid #2E2E2E">
+    <p style="margin:0; max-width:52ch; font-size:16px; line-height:1.6; color:#8C8985">Questions on any application, or a format not covered here, go to the marketing contact before the job goes to press.</p>
+    <img src="assets/logos/stanmore-hor-2026-reverse.svg" alt="Stanmore" style="width:240px; height:auto">
+  </div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;revision&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Rev. A — August 2026&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;showPrintSpecs&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      revision: this.props.revision ?? "Rev. A — August 2026",
+      showPrintSpecs: this.props.showPrintSpecs ?? true,
+    };
+  }
+}
+</script>
+</body>
+</html>
