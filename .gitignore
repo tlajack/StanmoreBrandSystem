@@ -51,3 +51,6 @@ next-env.d.ts
 *.PSB
 *.heic
 *.HEIC
+
+# InDesign working folder
+assets/2026-Van-Concept/
